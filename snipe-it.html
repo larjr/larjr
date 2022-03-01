@@ -37,13 +37,27 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">Consultoria do Luís</h3>
+      <a href="/"><h3 class="masthead-brand">Consultoria do Luís</h3></a>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/suporte">Suporte</a>
-        <a class="nav-link" href="/blog">Blog</a>
-        <a class="nav-link active" href="/snipe-it">Snipe IT</a>
-        <a class="nav-link" href="https://luisangelorjr.com.br" target="_blank">Site Pessoal</a>
+        <div class="dropdown nav-link">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+            Links Externos
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="https://github.com/larjr" target="_blank">Github</a>
+            <a class="dropdown-item" href="https://luisangelorjr.com.br" target="_blank">Site Pessoal</a>
+          </div>
+        </div>
+        <div class="dropdown nav-link">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+            Arquivo
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/suporte">Suporte</a>
+            <a class="dropdown-item" href="/blog">Blog</a>
+            <a class="dropdown-item" href="/snipe-it">Snipe IT</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
